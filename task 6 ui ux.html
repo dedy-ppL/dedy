@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Home Product</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSacjvQ8VV7qSBr6bY9RLGF3ndQuntmM0iw0UtaZx8xzHhmzYE_VL9-eD-ibb7lIfJFxcA&usqp=CAU') no-repeat center center/cover;
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .featured-products, .testimonials, .special-offers, .blog {
+            padding: 2rem 1rem;
+            background-color: white;
+            margin: 1rem 0;
+        }
+
+        .product-grid {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .buy-btn {
+            display: block;
+            padding: 0.5rem;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        footer nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .newsletter {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .newsletter input {
+            padding: 0.5rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .newsletter button {
+            padding: 0.5rem;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">qyf_store</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <span>🛒 Keranjang</span>
+            <span>🔍 Pencarian</span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Temukan Produk Terbaik untuk Anda</h1>
+        <p>Deskripsi singkat tentang produk yang ditawarkan.</p>
+        <a href="#" class="cta">Jelajahi Produk</a>
+    </section>
+
+    <section class="featured-products">
+        <h2>Produk Unggulan</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJguAeB8JDfgBTpxHC8vGEu17VuzdQcpRgtA&s" alt="Produk 1">
+                <h3>Nama Produk 1</h3>
+                <p>Harga: Rp. 100.000</p>
+                <a href="#" class="buy-btn">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwhmADElX8rJQ5UZmLKVhKPRBxX7R1gRIepw&s" alt="Produk 2">
+                <h3>Nama Produk 2</h3>
+                <p>Harga: Rp. 150.000</p>
+                <a href="#" class="buy-btn">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0DCMya1J8JkVzBacUb7ohvcisd55TlNK9tw&s" alt="Produk 3">
+                <h3>Nama Produk 3</h3>
+                <p>Harga: Rp. 200.000</p>
+                <a href="#" class="buy-btn">Beli Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Apa Kata Mereka</h2>
+        <div class="testimonial-carousel">
+            <blockquote>"Testimoni pelanggan yang sangat puas dengan produk ini."</blockquote>
+            <cite>- ucup (Layanan pelanggan yang luar biasa dan produk yang memenuhi semua harapan saya!)</cite>
+        </div>
+    </section>
+
+    <section class="special-offers">
+        <h2>Penawaran Khusus</h2>
+        <div class="offer">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQePf_IHMD53TYpFYqc0seLR7n0djKPxtZXjA&s" alt="Penawaran Khusus">
+            <p>Deskripsi singkat tentang penawaran.</p>
+            <a href="#" class="cta">Dapatkan Sekarang</a>
+        </div>
+    </section>
+
+    <section class="blog">
+        <h2>Artikel Terbaru</h2>
+        <div class="article">
+            <h3>qyf_09 store penyedia kebutuhan</h3>
+            <p>Tentang Kami
+                Selamat datang di qyf_09 store! Kami adalah tim yang berdedikasi untuk memberikan produk dan layanan berkualitas tinggi yang memenuhi kebutuhan Anda. Dengan pengalaman bertahun-tahun di industri ini, kami berkomitmen untuk selalu berinovasi dan menghadirkan solusi terbaik.
+                
+                Kami percaya bahwa setiap pelanggan layak mendapatkan yang terbaik. Oleh karena itu, kami tidak hanya fokus pada produk, tetapi juga pada pengalaman pelanggan yang memuaskan. Dari layanan pelanggan yang responsif hingga pengiriman yang cepat, kami berusaha keras untuk memastikan kepuasan Anda.
+                
+                Bergabunglah dengan komunitas kami dan temukan berbagai produk menarik yang siap membantu Anda mencapai tujuan Anda. Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau membutuhkan bantuan. Terima kasih telah mempercayakan kebutuhan Anda kepada kami!
+                
+                </p>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Kebijakan Privasi</a></li>
+                <li><a href="#">Syarat & Ketentuan</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">gmail</div>
+        <br><br>
+        <form class="newsletter">
+            <input type="email" placeholder="qyf_09/4464@gmail.com">
+            <button type="submit">Berlangganan</button>
+        </form>
+    </footer>
+</body>
+</html>
